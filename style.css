@@ -8,7 +8,7 @@
 /* common button section */
 .common-btn{
     padding: 7px 20px;
-    background-color: blue;
+    background-color:#1D4ED8;
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,6 +54,7 @@
 .hero-text h1{
     font-size: 50px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .hero-btn{
     padding: 12px 30px;
@@ -68,11 +69,16 @@ margin-top: 40px;
 .meet-box{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
    
+}
+.meet-box div{
+    background-color: #E5E7EB;
+    border-radius: 7px;
+    padding: 5px;
 }
 .meet-box div img{
     width: 600px;
@@ -80,7 +86,7 @@ margin-top: 40px;
     border-radius: 10px;
 }
 .meet-box div h5{
-    color: blue;
+    color: #2563EB;
     margin-bottom: 5px;
     margin-top: 15px;
 }
@@ -128,8 +134,8 @@ margin-top: 40px;
     cursor: pointer;
 }
 .standard-box button:hover{
-   color: blue;
-   border-color: blue;
+   color: #1D4ED8;
+   border-color: #1D4ED8;
 }
 .standard-box p{
     color: rgb(83, 77, 77);
@@ -153,7 +159,7 @@ margin-top: 40px;
 .pro-box button{
     margin-top: 90px;
     padding: 10px 100px;
-    background-color: blue;
+    background-color: #1D4ED8;
     border-radius: 7px;
     border: none;
     cursor: pointer;
@@ -189,9 +195,66 @@ margin-top: 40px;
     cursor: pointer;
 }
 .team-box button:hover{
-   color: blue;
-   border-color: blue;
+   color: #1D4ED8;
+   border-color: #1D4ED8;
 }
 .team-box p{
     color: rgb(83, 77, 77);
+}
+/* Event Schedule styles */
+.schedule-section-root{
+    padding:100px 80px;
+    text-align:center;
+}
+
+.schedule-section-root h2{
+    font-size:48px;
+    margin-bottom:10px;
+    color:#111827;
+}
+
+.schedule-section-root p{
+    color:#6b7280;
+    margin-bottom:50px;
+}
+
+.schedule-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#ffffff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.schedule-table th{
+    background:#2563eb;
+    color:white;
+    padding:10px;
+    font-size:18px;
+}
+
+.schedule-table td{
+    padding:10px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.schedule-table tbody tr:hover{
+    background:#f8fafc;
+    transition:.3s;
+}
+
+.schedule-table td:first-child{
+    font-weight:bold;
+    color:#2563eb;
+    width:150px;
+}
+
+.schedule-table td:last-child{
+    font-weight:bold;
+    width:150px;
+}
+
+.schedule-table tr:last-child td{
+    border-bottom:none;
 }

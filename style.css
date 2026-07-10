@@ -59,3 +59,139 @@
     padding: 12px 30px;
     cursor: pointer;
 }
+/* Meet the speaker styles */
+.meet-root h1{
+font-size: 40px;
+text-align: center;
+margin-top: 40px;
+}
+.meet-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.meet-box div img{
+    width: 600px;
+    height: 324px;
+    border-radius: 10px;
+}
+.meet-box div h5{
+    color: blue;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.meet-box div p{
+    color: rgb(80, 74, 74);
+    margin-top: 3px;
+}
+/* Secure your spot styles */
+.spot-box-head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.spot-box-head p{
+    color: rgb(100, 93, 93);
+}
+.spot-box-head h1{
+    font-size: 45px;
+}
+.spot-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+/* standard box styles */
+.standard-box{
+    padding: 35px;
+    width: 260px;
+    height: 370px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+.standard-box hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.standard-box ul li{
+    padding: 3px;
+}
+.standard-box button{
+    margin-top: 90px;
+    padding: 10px 85px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.standard-box button:hover{
+   color: blue;
+   border-color: blue;
+}
+.standard-box p{
+    color: rgb(83, 77, 77);
+}
+/* pro box styles */
+.pro-box{
+    padding: 35px;
+    width: 260px;
+    height: 370px;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+}
+.pro-box hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.pro-box ul li{
+    padding: 3px;
+    color: rgb(224, 217, 217);
+}
+.pro-box button{
+    margin-top: 90px;
+    padding: 10px 100px;
+    background-color: blue;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.pro-box p{
+    color: rgb(83, 77, 77);
+}
+.pro-box h1{
+    color: white;
+}
+#pro-p{
+    color: #93C5FD;
+}
+/* team box styles */
+.team-box{
+    padding: 35px;
+    width: 260px;
+    height: 370px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+}
+.team-box hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.team-box ul li{
+    padding: 3px;
+}
+.team-box button{
+    margin-top: 90px;
+    padding: 10px 85px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.team-box button:hover{
+   color: blue;
+   border-color: blue;
+}
+.team-box p{
+    color: rgb(83, 77, 77);
+}

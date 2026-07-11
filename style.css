@@ -1,46 +1,58 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.container{
+
+.container {
     padding: 8px 80px;
 }
+
 /* common button section */
-.common-btn{
+.common-btn {
     padding: 7px 20px;
-    background-color:#1D4ED8;
+    background-color: #1D4ED8;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+
+.common-btn:hover {
+    color: orange;
+}
+
 /* nav section styles */
-.devconf-nav{
+.devconf-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-link{
+
+.nav-link {
     display: flex;
     gap: 10px;
 }
-.nav-link li{
+
+.nav-link li {
     list-style: none;
 }
-.nav-link li a{
+
+.nav-link li a {
     text-decoration: none;
     color: black;
 }
+
 /* hero section styles */
-.hero-root{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/banner.jpg');
-     background-size: cover;
+.hero-root {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
     color: aliceblue;
 }
- .hero-content {
+
+.hero-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,115 +60,138 @@
     align-items: center;
     height: 440px;
 }
-.hero-text{
+
+.hero-text {
     margin-top: 40px;
 }
-.hero-text h1{
+
+.hero-text h1 {
     font-size: 50px;
     margin-bottom: 15px;
     font-weight: bold;
 }
-.hero-btn{
+
+.hero-btn {
     padding: 12px 30px;
     cursor: pointer;
 }
+
 /* Meet the speaker styles */
-.meet-root h1{
-font-size: 40px;
-text-align: center;
-margin-top: 40px;
+.meet-root h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
 }
-.meet-box{
+
+.meet-box {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-   
+
 }
-.meet-box div{
+
+.meet-box div {
     background-color: #E5E7EB;
     border-radius: 7px;
     padding: 5px;
 }
-.meet-box div img{
+
+.meet-box div img {
     width: 600px;
     height: 324px;
     border-radius: 10px;
 }
-.meet-box div h5{
+
+.meet-box div h5 {
     color: #2563EB;
     margin-bottom: 5px;
     margin-top: 15px;
 }
-.meet-box div p{
+
+.meet-box div p {
     color: rgb(80, 74, 74);
     margin-top: 3px;
 }
+
 /* Secure your spot styles */
-.spot-box-head{
+.spot-box-head {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
 }
-.spot-box-head p{
+
+.spot-box-head p {
     color: rgb(100, 93, 93);
 }
-.spot-box-head h1{
+
+.spot-box-head h1 {
     font-size: 45px;
 }
-.spot-box{
+
+.spot-box {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
+
 /* standard box styles */
-.standard-box{
+.standard-box {
     padding: 35px;
     width: 260px;
     height: 370px;
     background-color: #E5E7EB;
     border-radius: 10px;
 }
-.standard-box hr{
+
+.standard-box hr {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-.standard-box ul li{
+
+.standard-box ul li {
     padding: 3px;
 }
-.standard-box button{
+
+.standard-box button {
     margin-top: 90px;
     padding: 10px 85px;
     border-radius: 7px;
     cursor: pointer;
 }
-.standard-box button:hover{
-   color: #1D4ED8;
-   border-color: #1D4ED8;
+
+.standard-box button:hover {
+    color: #1D4ED8;
+    border-color: #1D4ED8;
 }
-.standard-box p{
+
+.standard-box p {
     color: rgb(83, 77, 77);
 }
+
 /* pro box styles */
-.pro-box{
+.pro-box {
     padding: 35px;
     width: 260px;
     height: 370px;
     background-color: #0D1B2A;
     border-radius: 10px;
 }
-.pro-box hr{
+
+.pro-box hr {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-.pro-box ul li{
+
+.pro-box ul li {
     padding: 3px;
     color: rgb(224, 217, 217);
 }
-.pro-box button{
+
+.pro-box button {
     margin-top: 90px;
     padding: 10px 100px;
     background-color: #1D4ED8;
@@ -164,106 +199,122 @@ margin-top: 40px;
     border: none;
     cursor: pointer;
 }
-.pro-box p{
+
+.pro-box button:hover {
+    color: whitesmoke;
+}
+
+.pro-box p {
     color: rgb(83, 77, 77);
 }
-.pro-box h1{
+
+.pro-box h1 {
     color: white;
 }
-#pro-p{
+
+#pro-p {
     color: #93C5FD;
 }
+
 /* team box styles */
-.team-box{
+.team-box {
     padding: 35px;
     width: 260px;
     height: 370px;
     background-color: #E5E7EB;
     border-radius: 10px;
 }
-.team-box hr{
+
+.team-box hr {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-.team-box ul li{
+
+.team-box ul li {
     padding: 3px;
 }
-.team-box button{
+
+.team-box button {
     margin-top: 90px;
     padding: 10px 85px;
     border-radius: 7px;
     cursor: pointer;
 }
-.team-box button:hover{
-   color: #1D4ED8;
-   border-color: #1D4ED8;
+
+.team-box button:hover {
+    color: #1D4ED8;
+    border-color: #1D4ED8;
 }
-.team-box p{
+
+.team-box p {
     color: rgb(83, 77, 77);
 }
+
 /* Event Schedule styles */
-.schedule-section-root{
-    padding:100px 80px;
-    text-align:center;
+.schedule-section-root {
+    padding: 100px 80px;
+    text-align: center;
 }
 
-.schedule-section-root h2{
-    font-size:48px;
-    margin-bottom:10px;
-    color:#111827;
+.schedule-section-root h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #111827;
 }
 
-.schedule-section-root p{
-    color:#6b7280;
-    margin-bottom:50px;
+.schedule-section-root p {
+    color: #6b7280;
+    margin-bottom: 50px;
 }
 
-.schedule-table{
-    width:100%;
-    border-collapse:collapse;
-    background:#ffffff;
-    border-radius:12px;
-    overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
 }
 
-.schedule-table th{
-    background:#2563eb;
-    color:white;
-    padding:10px;
-    font-size:18px;
+.schedule-table th {
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
 }
 
-.schedule-table td{
-    padding:10px;
-    border-bottom:1px solid #e5e7eb;
+.schedule-table td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
 }
 
-.schedule-table tbody tr:hover{
-    background:#f8fafc;
-    transition:.3s;
+.schedule-table tbody tr:hover {
+    background: #f8fafc;
+    transition: .3s;
 }
 
-.schedule-table td:first-child{
-    font-weight:bold;
-    color:#2563eb;
-    width:150px;
+.schedule-table td:first-child {
+    font-weight: bold;
+    color: #2563eb;
+    width: 150px;
 }
 
-.schedule-table td:last-child{
-    font-weight:bold;
-    width:150px;
+.schedule-table td:last-child {
+    font-weight: bold;
+    width: 150px;
 }
 
-.schedule-table tr:last-child td{
-    border-bottom:none;
+.schedule-table tr:last-child td {
+    border-bottom: none;
 }
+
 /* footer styles */
-.footer-root{
+.footer-root {
     background-color: #0D1B2A;
     height: 150px;
 }
-.footer-up{
+
+.footer-up {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -271,7 +322,8 @@ margin-top: 40px;
     height: 70px;
     margin-top: 20px;
 }
-.footer-down{
+
+.footer-down {
     display: flex;
     justify-content: space-between;
     color: orange;

@@ -66,13 +66,13 @@
 }
 
 .hero-text h1 {
-    font-size: 50px;
+    font-size: 56px;
     margin-bottom: 15px;
     font-weight: bold;
 }
 
 .hero-btn {
-    padding: 12px 30px;
+    padding: 14px 35px;
     cursor: pointer;
 }
 
@@ -125,10 +125,12 @@
 
 .spot-box-head p {
     color: rgb(100, 93, 93);
+    margin-top: 7px;
 }
 
 .spot-box-head h1 {
-    font-size: 45px;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .spot-box {
@@ -236,7 +238,7 @@
 
 .team-box button {
     margin-top: 90px;
-    padding: 10px 85px;
+    padding: 10px 95px;
     border-radius: 7px;
     cursor: pointer;
 }
